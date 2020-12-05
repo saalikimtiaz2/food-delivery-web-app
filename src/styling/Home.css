@@ -1,0 +1,149 @@
+#container{
+    max-width: 1560px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #EBF9FC;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+}
+
+.site-back-top-basic {
+  color: rgba(64, 64, 64, 0.6);
+}
+
+.locationSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 1rem;
+    height: 100%;
+}
+.landingImg{
+    transition: transform .2s ease-in-out;
+}
+.landingImg:hover{
+    transform: scale(1.02);
+}
+
+.roundedImg{
+    border-radius:  5%;
+}
+
+h2 span{
+    border-bottom: 4px solid #FE5634 ;
+}
+
+.featureSection{
+    margin: 5rem 0rem;
+}
+
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem;
+    height: 100%;
+}
+.aboutBox{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.imageBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#iconHolder{
+    background-color: #E7E9EE;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.CardSection{
+    height: 100%;
+    text-align: left;
+    display: flex;
+    padding-left: 1rem;
+    margin: 1rem auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.GetAppSection{
+    background-color: #EBF9FC;
+    height: 100%;
+    padding: 0rem 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.appBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    height: 100%;
+}
+
+.MainBtn{
+    background-color: #FE5634;
+    color: white;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.MainBtn:hover{
+    background-color: #FE7559;
+}
+.MainBtn .buttonSpan{
+    background-color: #FE7559;
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+.MainBtn .buttonSpan{
+    background-color: #FE7559;
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.MainBtn:hover .buttonSpan{
+    background-color: #FE5634;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    .locationSec{
+        text-align: center;
+    }
+    .locationSec h1{
+        font-size: 2rem;
+    }
+    #locationSec{
+        text-align: center;
+    }
+    #container{
+        border-radius: 0rem;
+    }
+}

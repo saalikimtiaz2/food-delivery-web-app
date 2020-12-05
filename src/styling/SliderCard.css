@@ -1,0 +1,54 @@
+.SliderCard{
+    border: none;
+    border-radius: 2rem;
+    color: black;
+    margin:1rem 1rem;
+    background-color: #EBF9FC;
+    padding-top: 3rem;
+    padding-bottom: 1rem ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+    font-weight: 400;
+}
+
+.SliderCard:hover{
+    background-color:  #FE5634;
+}
+
+.SliderCard:hover h3{
+    color: white;
+}
+
+.iconContainer{
+    border: none;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0rem auto;
+    background-color: white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconContainer img{
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 1080px){
+    .iconContainer{
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .iconContainer{
+        padding: 3rem;
+    }
+}

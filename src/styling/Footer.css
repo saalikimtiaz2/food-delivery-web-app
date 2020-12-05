@@ -1,0 +1,49 @@
+.footer{
+    background-color: #F8F8F8;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+}
+.icon{
+    font-size: 2rem;
+    color: #3A4871;
+}
+ul{
+    line-height: 2.5rem;
+    text-align: left;
+    list-style-type: none;
+}
+
+#footer-para{
+    margin: 3rem 0rem;
+}
+.newsletter{
+    text-align: center;
+    background-color: #EBF9FC;
+    border: none;
+    border-radius: 1rem;
+    padding: 3rem
+}
+.freespace{
+    background-color: #F8F8F8;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.footer-links{
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer-links{
+    text-align: center;
+    }   
+    ul{
+
+        text-align: center;
+    }
+    
+}
